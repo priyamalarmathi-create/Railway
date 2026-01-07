@@ -10,7 +10,7 @@ import service.BookingSystem;
 public class RailwayReservationApp {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        BookingSystem bookingSystem =     new BookingSystem();
+        BookingSystem bookingSystem = new BookingSystem();
 
         bookingSystem.addTrain(new Train("12301", "Rajdhani Express", "Delhi", "Mumbai", 100, 100, 1500));
         bookingSystem.addTrain(new Train("12302", "Shatabdi Express", "Delhi", "Agra", 50, 50, 800));
@@ -71,6 +71,7 @@ public class RailwayReservationApp {
                     } catch (Exception e) {
                         System.out.println(e.getMessage());
                     }
+                    
                     break;
 
                 case 4:
@@ -95,10 +96,11 @@ public class RailwayReservationApp {
 
                 case 6:
                     System.out.println("Thank you for using Railway Reservation System!");
+                    
                     System.exit(0);
 
                 default:
-                    System.out.println("Invalid choice!");
+                    System.out.println("Valid choice!");
             }
         }
     }
