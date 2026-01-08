@@ -28,6 +28,7 @@ public class Ticket {
         this.pnr = "PNR" + (r.nextInt(9000) + 1000);
     }
 
+    //getter & setter
     public String getPnr() { return pnr; }
     public Train getTrain() { return train; }
 
