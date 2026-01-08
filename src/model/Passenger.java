@@ -15,9 +15,6 @@ public class Passenger {
     }
     
     
-   
-
-
 	public void displayPassengerInfo() {
         System.out.println("Passenger: " + name + ", Age: " + age + ", Gender: " + gender + ", Phone: " + phone);
     }

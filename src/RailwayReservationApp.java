@@ -100,7 +100,7 @@ public class RailwayReservationApp {
                     System.exit(0);
 
                 default:
-                    System.out.println("Valid choice!");
+                    System.out.println("InValid choice!");
             }
         }
     }
